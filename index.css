@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(182, 151, 137);
+    
+}
+.nav-container {
+    border: 3px solid red;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-page-img {
+    
+    width: 55%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid black;
+    border-radius: 8%;
+}
