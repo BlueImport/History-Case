@@ -5,10 +5,27 @@ body {
 }
 .nav-container {
     border: 3px solid red;
-    padding-bottom: 25px;
-    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
     font-family: 'Open Sans', sans-serif;
 }
+
+.nav-title {
+    border: 2px solid green;
+    margin: 1%;
+    padding-right: 50%;
+    
+}
+
+.nav-links {
+    
+    border: 2px solid blue
+}
+
 .main-container {
     display: flex;
     justify-content: space-evenly;
@@ -16,6 +33,7 @@ body {
 }
 .flip-card {
     background-color: transparent;
+    border-radius: 8px;
     width: 300px;
     height: 300px;
     box-shadow: 5px 10px 10px white;
